@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Padre Eloy Foot News — portal satírico</title>
+  <meta name="description" content="Portal fictício e satírico sobre uma liga de Brasfoot entre amigos.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/layout.js" defer></script>
+  <script src="assets/js/common.js" defer></script>
+  <script src="assets/js/image-map.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
+</head>
+
+<body>
+  <header data-site-header></header>
+
+  <section class="ticker">
+    <div class="container ticker-inner">
+      <div class="ticker-label">Últimas</div>
+      <div class="ticker-track" data-ticker></div>
+    </div>
+  </section>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <article class="hero-main" data-hero>
+          <div class="hero-content">
+            <div class="eyebrow">2089 • Cobertura especial dos campeonatos mais inflamados dos EUA</div>
+            <h1 class="hero-title">Quando a 4ª divisão vira religião, a imprensa sensacionalista agradece.</h1>
+            <p class="hero-subtitle">
+              O maior portal jornalistico esportivo que trás as últimas atualizações dos acontecimentos que transformam a saga dos técnicos em manchete, dossiê, provocação e meme institucionalizado.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#tecnicos">Ver perfis dos técnicos</a>
+              <a class="button button-secondary" href="#especiais">Abrir reportagens especiais</a>
+            </div>
+          </div>
+        </article>
+
+        <aside class="hero-side">
+          <section class="panel">
+            <h3>O que este portal cobre</h3>
+            <p>
+              Subidas, demissões, finanças destruídas, teorias conspiratórias, copas frustrantes, supostos roubos de tática
+              e o eterno debate sobre quem realmente manda no Mundo do Brasfoot.
+            </p>
+          </section>
+          <section class="panel">
+            <h3>Recorte da temporada</h3>
+            <div class="metric-stack" data-ranking></div>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <section id="manchetes" class="section">
+      <div class="container section-header">
+        <div>
+          <span class="badge">Manchetes principais</span>
+          <h2 class="section-title">Os perfis mais comentados do save</h2>
+        </div>
+        <p class="section-copy">
+          Cada card leva para uma página própria com a “trajetória” completa do técnico, quotes, resultados por ano
+          e links para especiais mais absurdos ainda.
+        </p>
+      </div>
+      <div id="tecnicos" class="container grid-cards" data-story-grid></div>
+    </section>
+
+    <section id="especiais" class="section">
+      <div class="container section-header">
+        <div>
+          <span class="badge">Reportagens especiais</span>
+          <h2 class="section-title">Conteúdos aprofundados para você ficar por dentro das fofocas</h2>
+        </div>
+        <p class="section-copy">
+          Veja o que acontece em paralelo ao mundo do futebol, aqui você não fica por fora de nada.
+        </p>
+      </div>
+      <div class="container grid-cards" data-special-grid></div>
+    </section>
+
+    <section id="bastidores" class="section">
+      <div class="container dual-grid">
+        <article class="panel list-panel">
+          <span class="badge">Bastidores familiares</span>
+          <h2 class="section-title">A árvore genealógica da discórdia</h2>
+          <div data-rivalries></div>
+        </article>
+
+        <article class="panel">
+          <span class="badge">Nota editorial</span>
+          <h2 class="section-title">Quem fez essa bagaça</h2>
+          <div class="notice-box">
+            Site desenvolvido por <strong>@mviniciuskm96</strong> para animar o grupo do Brasfoot e esse save louco que deveria virar um documentário
+          </div>
+          <p style="margin-top:1rem;">
+            Se você perdeu um campeonato hoje, não se preocupe, amanhã terá a chance de perder outra vez.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer data-site-footer></footer>
+
+  <script src="assets/js/index.js" defer></script>
+</body>
+</html>
